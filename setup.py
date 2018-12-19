@@ -21,7 +21,7 @@ inst_reqs = ["shapely", "mercantile", "numpy"]
 extra_reqs = {
     'test': ['mock', 'pytest', 'pytest-cov', 'codecov']}
 
-setup(name='ml-geo-tiler',
+setup(name='ml_geo_tiler',
       version=version,
       description=u"""Export Tools for Transforming ML Models into Maps""",
       long_description=readme,
